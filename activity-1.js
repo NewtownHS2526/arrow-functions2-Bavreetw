@@ -7,13 +7,13 @@ function greet() {
 }
 // Convert to arrow function:
 
-
+const greet = () => "Hello, World!";
 // Problem 2
 function sayGoodbye() {
     console.log("Goodbye!");
 }
 // Convert to arrow function:
-
+const sayGoodbye = () => console.log("Goodbye!");
 
 // Problem 3
 function getCurrentYear() {
@@ -21,13 +21,13 @@ function getCurrentYear() {
 }
 // Convert to arrow function:
 const getCurrentYear = () => new Date().getFullYear();
-
+return getCurrentYear();            
 // Problem 4
 function printMessage() {
     console.log("Welcome to JavaScript!");
 }
 // Convert to arrow function:
-const printMessage = () => "Welcome to JavaScript!";
+
 
 
 // Problem 5
@@ -71,3 +71,4 @@ function logInfo() {
 }
 // Convert to arrow function:
 
+function

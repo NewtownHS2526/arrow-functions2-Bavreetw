@@ -20,28 +20,30 @@ function double(value) {
     return value * 2;
 }
 // Convert to arrow function:
-
+const double = value => value * 2;
 
 // Problem 4
 function isEven(num) {
     return num % 2 === 0;
 }
 // Convert to arrow function:
-
+const isEven = num => num % 2 === 0;
+return isEven();
 
 // Problem 5
 function capitalize(str) {
     return str.toUpperCase();
 }
 // Convert to arrow function:
-
+function capitalize(str) {
+    return str.toUpperCase();
+}
 
 // Problem 6
 function getLength(text) {
     return text.length;
 }
-// Convert to arrow function:
-
+// Convert to arrow functio
 
 // Problem 7
 function addOne(x) {
@@ -54,8 +56,8 @@ function addOne(x) {
 function isPositive(n) {
     return n > 0;
 }
-// Convert to arrow function:
 
+// Convert to arrow function:p;/o0pl[]
 
 // Problem 9
 function reverseString(s) {

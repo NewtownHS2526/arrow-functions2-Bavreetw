@@ -5,8 +5,7 @@
 function add(a, b) {
     return a + b;
 }
-// Convert to arrow function:
-
+// Convert to arrow function:`  
 
 // Problem 2
 function multiply(x, y) {
@@ -14,13 +13,15 @@ function multiply(x, y) {
 }
 // Convert to arrow function:
 
-
+const multiply = (x, y) => x * y;   
+console.log(multiply(4, 5));
 // Problem 3
 function subtract(num1, num2) {
     return num1 - num2;
 }
 // Convert to arrow function:
-
+const subtract = (num1, num2) => num1 - num2;
+console.log(subtract(10, 4));
 
 // Problem 4
 function divide(dividend, divisor) {
@@ -34,7 +35,7 @@ function greet(firstName, lastName) {
     return "Hello, " + firstName + " " + lastName;
 }
 // Convert to arrow function:
-
+const
 
 // Problem 6
 function findMax(a, b) {
@@ -71,5 +72,5 @@ function power(base, exponent) {
 function calculateArea(length, width) {
     return length * width;
 }
-// Convert to arrow function:
+// Convert to arrow function:`
 
